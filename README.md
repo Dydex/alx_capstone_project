@@ -1,43 +1,50 @@
-# Fitness Tracker App
+# Event Scheduler App
 
 ## Project Overview:
-The Fitness Tracker App is a comprehensive health and fitness management application designed to help users lead a healthier lifestyle. 
+The Event Scheduler App is a web-based application designed to simplify event management and scheduling. Its primary purpose is to provide users with a convenient platform to create, manage, and coordinate events efficiently.
 
-It serves the following purposes and goals:
-- Track and record daily physical activities and workouts.
-- Monitor calorie intake and provide dietary recommendations.
-- Set fitness goals and track progress over time.
-- Provide users with personalized exercise routines.
-- Promote a healthier lifestyle by encouraging regular exercise and balanced nutrition.
+**Problem Solved/Value to Users:**
+This project aims to solve the challenge of event organization by offering a user-friendly solution for creating, scheduling, and sharing events. It brings the following value to users:
+- Streamlined event creation and management.
+- Enhanced collaboration and communication among event participants.
+- Real-time updates and reminders for upcoming events.
+- Improved user experience and accessibility.
 
 ## Features and Functionality:
-- **Activity Logging:** Users can log various physical activities, including walking, running, cycling, and more.
-- **Workout Plans:** The app provides pre-defined workout plans for different fitness levels and goals.
-- **Calorie Counter:** Users can track their daily calorie intake and receive nutritional recommendations.
-- **Goal Setting:** Set specific fitness goals such as weight loss, muscle gain, or improved endurance.
-- **Progress Tracking:** Visualize fitness progress through charts and graphs.
-- **Meal Planning:** Access meal plans and recipes to support a balanced diet.
+- User Registration and Authentication: Users can create accounts and log in securely.
+- Event Creation: Users can create new events, specifying event details, dates, times, and locations.
+- Event Management: Users can view, edit, and delete events they've created.
+- Event Invitation: Users can invite others to participate in events.
+- Notifications: Automatic event reminders and updates sent to participants.
+- Event Sharing: Easily share event details with others via email or social media.
+- Event Calendar: A visual calendar view to display all upcoming events.
+- User Profiles: User profiles with personal information and event history.
 
 ## Technologies Used:
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
-- Python
+- Python (Flask)
+- SQLAlchemy (Database)
+- Git and GitHub (Version Control)
+
 
 ## Screenshots or Demo:
-![Screenshot 1](link_to_screenshot1)
-![Screenshot 2](link_to_screenshot2)
-[Link to Live Demo](https://your-fitness-app-demo.com)
+- [Link to Live Demo](https://your-live-demo-url.com)
+- ![Flow chart](assets/flowchart.png)
+- ![Screenshot 2](link_to_screenshot2)
 
 ## Roadmap and Future Enhancements:
 In the future, we plan to:
-- Implement social sharing features for workout achievements.
-- Add a community forum for users to share tips and experiences.
-- Incorporate wearable device integration for real-time tracking.
-- Enhance data analytics for more personalized recommendations.
+- Implement a messaging system for event communication.
+- Enhance user profiles with customization options.
+- Integrate location-based services for event mapping.
+- Improve performance and scalability for handling large events.
+- Support third-party calendar integration (e.g., Google Calendar).
+- Develop a mobile app version for added convenience.
 
 ## Contact Information:
-- **Ajala Dolapo**
-- GitHub: (https://github.com/Dydex)
-- LinkedIn: (https://www.linkedin.com/in/ajala-dolapo-756394281)
+- **Your Name**
+- GitHub: https://github.com/Dydex
+- LinkedIn: https://www.linkedin.com/in/ajala-dolapo-756394281
 - Email: supremeajala@gmail.com

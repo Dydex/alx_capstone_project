@@ -1,0 +1,147 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 70px;
+    background-color: #F6F6F6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group span{
+    position: inherit;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    color: red;
+}
+
+#submit-error{
+    position: static;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    color: red;
+}
+
+input {
+    color: rgba(0, 0, 0, 0.70);
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 137.188%; /* 17.834px */
+letter-spacing: 0.78px;
+}
+
+#contact-name {
+    border-radius: 11px;
+    border: transparent;
+    width: 300px;
+    height: 50px;
+}
+
+#contact-email {
+    border-radius: 11px;
+    border: transparent;
+    width: 300px;
+    height: 50px;
+}
+
+#contact-password {
+    border-radius: 11px;
+    border: transparent;
+    width: 300px;
+    height: 50px;
+}
+
+#confirm_password {
+    border-radius: 11px;
+    border: transparent;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+.button {
+    width: 325px;
+    height: 62px;
+    flex-shrink: 0;
+   background-color: #50C2C9;
+   border: transparent;
+   color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 137.188%; /* 24.694px */
+letter-spacing: 1.08px;
+}
+
+form h3 {
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.75);
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 115.688%; /* 20.824px */
+letter-spacing: 1.08px;
+}
+
+.para {
+    color: rgba(0, 0, 0, 0.74);
+text-align: center;
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 137.188%; /* 17.834px */
+letter-spacing: 0.78px;
+margin-bottom: 40px;
+}
+
+#para {
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 115.688%; /* 16.196px */
+letter-spacing: 0.84px;
+}
+
+.link {
+    color: #50C2C9;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 115.688%;
+letter-spacing: 0.84px;
+text-decoration: none;
+}
+
+.eclipse {
+    width: 200px;
+    height: 160px;
+    border-radius: 70%;
+    background-color: #50C2C9;
+    position: absolute;
+    box-shadow: inset 5px 5px 5px #888, -5px -5px 5px #888;
+}
+
+.eclipse:nth-child(2) {
+    background-color: #50C2C9;
+    top: 21%;
+    transform: translateY(-135%);
+    transform: translateX(50%);
+}
