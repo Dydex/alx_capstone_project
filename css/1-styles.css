@@ -4,7 +4,7 @@
 
 body {
     padding: 70px;
-    background-color: #F6F6F6;
+    background-color: #F6F6F6;;
 }
 
 form {
@@ -22,7 +22,8 @@ form {
     color: red;
 }
 
-#submit-error{
+#submit-error
+{
     position: static;
     bottom: 12px;
     right: 17px;
@@ -30,14 +31,19 @@ form {
     color: red;
 }
 
+#check-color
+{
+    color: green;
+}
+
 input {
     color: rgba(0, 0, 0, 0.70);
-font-family: Poppins;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 137.188%; /* 17.834px */
-letter-spacing: 0.78px;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.188%; /* 17.834px */
+    letter-spacing: 0.78px;
 }
 
 #contact-name {
@@ -73,61 +79,61 @@ letter-spacing: 0.78px;
     width: 325px;
     height: 62px;
     flex-shrink: 0;
-   background-color: #50C2C9;
-   border: transparent;
-   color: #FFF;
-text-align: center;
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 137.188%; /* 24.694px */
-letter-spacing: 1.08px;
+    background-color: #50C2C9;
+    border: transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 137.188%; /* 24.694px */
+    letter-spacing: 1.08px;
 }
 
 form h3 {
     margin: 0px;
     color: rgba(0, 0, 0, 0.75);
-font-family: Poppins;
-font-size: 25px;
-font-style: normal;
-font-weight: 600;
-line-height: 115.688%; /* 20.824px */
-letter-spacing: 1.08px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115.688%; /* 20.824px */
+    letter-spacing: 1.08px;
 }
 
 .para {
     color: rgba(0, 0, 0, 0.74);
-text-align: center;
-font-family: Poppins;
-font-size: 19px;
-font-style: normal;
-font-weight: 400;
-line-height: 137.188%; /* 17.834px */
-letter-spacing: 0.78px;
-margin-bottom: 40px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.188%; /* 17.834px */
+    letter-spacing: 0.78px;
+    margin-bottom: 40px;
 }
 
 #para {
     color: #000;
-text-align: center;
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 115.688%; /* 16.196px */
-letter-spacing: 0.84px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115.688%; /* 16.196px */
+    letter-spacing: 0.84px;
 }
 
 .link {
     color: #50C2C9;
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 115.688%;
-letter-spacing: 0.84px;
-text-decoration: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115.688%;
+    letter-spacing: 0.84px;
+    text-decoration: none;
 }
 
 .eclipse {

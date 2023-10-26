@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/3-style.css">
-    <title>Event Schedule</title>
+    <title>Task Manager</title>
 </head>
+
 <body>
-    
+
     <div class="container">
         <h1>Select a task</h1>
 
+        <!-- Tasks Name -->
         <div class="task_container">
-            <div class="task_name" id="Break">Break</div>
-            <div class="task_name" id="gym">gym</div>
-            <div class="task_name" id="study">study</div>
-            <div class="task_name" id="Tv">Tv</div>
-            <div class="task_name" id="friends">friends</div>
-            <div class="task_name" id="work">work</div>
-            <div class="task_name" id="deselect">deselect</div>
+            <div class="task_name" id="Break" style=" background-color: #f7f779;">Break</div>
+            <div class="task_name" id="gym" style="background-color: #f68080;">Gym</div>
+            <div class="task_name" id="study" style="background-color: #faae7b;">Study</div>
+            <div class="task_name" id="Tv" style="background-color: #2a9d8f;">Tv</div>
+            <div class="task_name" id="friends" style="background-color: #a8dadc;">Friends</div>
+            <div class="task_name" id="work" style="background-color: #bdb2ff;">Work</div>
         </div>
 
+        <!-- Start of Task Schedule -->
         <h3>Add selected task to the schedule</h3>
 
         <div class="schedule_container">
+            <!-- Start of Days of the week -->
             <div class="days_container">
                 <span class="corner"></span>
                 <div class="day">Sunday</div>
@@ -34,6 +38,9 @@
                 <div class="day">Friday</div>
                 <div class="day">Saturday</div>
             </div>
+            <!-- End of Days of the week -->
+
+            <!-- Start of Time -->
             <div class="part_day">
                 <div class="time"> 8am<br> - <br> 12pm</div>
                 <div class="task"></div>
@@ -84,8 +91,29 @@
                 <div class="task"></div>
                 <div class="task"></div>
             </div>
+            <!-- End of Time -->
+        </div>
+        <!-- End of Task Schedule -->
+
+        <!-- Reset Button and pop-up message -->
+        <button class="deleteBtn" id="deselect">Reset Task schedule</button>
+
+        <div class="pop-up_container">
+            <div class="pop-up">
+                <h4>Are you sure you want to delete all the tasks from
+                    your schedule?
+                </h4>
+                <div class="btn_container">
+                    <div class="btn_answer" id="btn_yes">YES</div>
+                    <div class="btn_answer" id="btn_no">NO</div>
+                </div>
+            </div>
         </div>
 
     </div>
+    <script src="js/4-screen-mode.js"></script>
+    <script src="js/3-task-manager.js"></script>
+    <script src="https://kit.fontawesome.com/b206829fcf.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
