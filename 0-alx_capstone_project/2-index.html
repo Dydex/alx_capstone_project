@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/2-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- Eclipse -->
+    <header>
+        <div class="eclipse"></div>
+        <div class="eclipse"></div>
+    </header>
+
+    <!-- Start of form -->
+    <form id="signIn">
+        <h3> Welcome Back!</h3>
+
+        <img id="image" src="assets/undraw_my_notifications_rjej 1.png">
+
+        <!-- Input for Email -->
+        <div class="input-group">
+            <p>
+                <input type="email" id="contact-email" onkeyup="validateEmail()" name="email"
+                    placeholder="Enter ur email address" required>
+                <span id="email-error"></span>
+            </p>
+        </div>
+
+        <!-- Input for Password -->
+        <div class="input-group">
+            <p>
+                <input type="password" id="contact-password" onkeyup="validatePassword()" name="password"
+                    placeholder="Enter password" required>
+                <span id="password-error"></span>
+            </p>
+        </div>
+
+        <!-- Sign In button -->
+        <div class="submit-group">
+            <button onclick="return signIn()" class="button" type="submit"> Sign In </button>
+            <span id="submit-error"></span>
+        </div>
+
+        <p id="para">Don't have an account ? <a class="link" href="1-index.html">Sign Up</a> </p>
+    </form>
+    <!-- End of Form -->
+    <script src="js/2-sign-in.js"></script>
+    <script src="https://kit.fontawesome.com/b206829fcf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
