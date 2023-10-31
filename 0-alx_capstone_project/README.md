@@ -38,7 +38,7 @@ In the future, we plan to:
 - Develop a mobile app version for added convenience.
 
 ## Contact Information:
-- **Your Name**
+- **Dolapo Ajala**
 - GitHub: https://github.com/Dydex
 - LinkedIn: https://www.linkedin.com/in/ajala-dolapo-756394281
 - Email: supremeajala@gmail.com
